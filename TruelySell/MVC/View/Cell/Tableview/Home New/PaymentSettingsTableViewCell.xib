@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="113" id="KGk-i7-Jjw" customClass="PaymentSettingsTableViewCell" customModule="SERVPRO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="112.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6cP-zM-12m">
+                        <rect key="frame" x="5" y="5" width="315" height="102.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avK-JO-Ry1">
+                                <rect key="frame" x="10" y="10" width="295" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3Al-10-MTm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e5f-0q-7qM">
+                                <rect key="frame" x="10" y="41" width="295" height="30"/>
+                                <color key="tintColor" red="0.58039215690000001" green="0.47450980390000003" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="xAb-Tg-9wX"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="avK-JO-Ry1" firstAttribute="top" secondItem="6cP-zM-12m" secondAttribute="top" constant="10" id="8Du-dL-oAb"/>
+                            <constraint firstItem="e5f-0q-7qM" firstAttribute="leading" secondItem="avK-JO-Ry1" secondAttribute="leading" id="EwT-6Z-XV3"/>
+                            <constraint firstItem="avK-JO-Ry1" firstAttribute="leading" secondItem="6cP-zM-12m" secondAttribute="leading" constant="10" id="KRn-Df-VE1"/>
+                            <constraint firstItem="e5f-0q-7qM" firstAttribute="trailing" secondItem="avK-JO-Ry1" secondAttribute="trailing" id="OaC-ez-BND"/>
+                            <constraint firstAttribute="trailing" secondItem="avK-JO-Ry1" secondAttribute="trailing" constant="10" id="Q8O-Zt-ii4"/>
+                            <constraint firstItem="e5f-0q-7qM" firstAttribute="top" secondItem="avK-JO-Ry1" secondAttribute="bottom" constant="10" id="WNi-LT-rek"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6cP-zM-12m" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="8pA-jJ-cKL"/>
+                    <constraint firstAttribute="trailing" secondItem="6cP-zM-12m" secondAttribute="trailing" constant="5" id="DTJ-ra-GdE"/>
+                    <constraint firstAttribute="bottom" secondItem="6cP-zM-12m" secondAttribute="bottom" constant="5" id="mhx-xj-4Rc"/>
+                    <constraint firstItem="6cP-zM-12m" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="zgP-Ag-sfN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="gContainerView" destination="6cP-zM-12m" id="pJW-Gn-hoe"/>
+                <outlet property="gLabelTitle" destination="avK-JO-Ry1" id="rUm-DR-waV"/>
+                <outlet property="gTextFieldContent" destination="e5f-0q-7qM" id="CeU-gv-eaP"/>
+            </connections>
+            <point key="canvasLocation" x="106.5217391304348" y="65.290178571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

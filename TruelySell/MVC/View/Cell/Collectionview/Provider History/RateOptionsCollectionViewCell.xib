@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RateOptionsCollectionViewCell" customModule="SERVPRO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="201" height="52"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="201" height="52"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GFU-YC-J4O">
+                        <rect key="frame" x="5" y="5" width="191" height="42"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSl-mn-C5V">
+                                <rect key="frame" x="2" y="2" width="187" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TSl-mn-C5V" firstAttribute="top" secondItem="GFU-YC-J4O" secondAttribute="top" constant="2" id="WFx-xd-Ase"/>
+                            <constraint firstItem="TSl-mn-C5V" firstAttribute="leading" secondItem="GFU-YC-J4O" secondAttribute="leading" constant="2" id="Z1c-Xx-RJ1"/>
+                            <constraint firstAttribute="trailing" secondItem="TSl-mn-C5V" secondAttribute="trailing" constant="2" id="iaq-1v-nDs"/>
+                            <constraint firstAttribute="bottom" secondItem="TSl-mn-C5V" secondAttribute="bottom" constant="2" id="nq5-Cx-1if"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="GFU-YC-J4O" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="eF4-4T-7Ct"/>
+                <constraint firstAttribute="bottom" secondItem="GFU-YC-J4O" secondAttribute="bottom" constant="5" id="k5A-U2-WKS"/>
+                <constraint firstAttribute="trailing" secondItem="GFU-YC-J4O" secondAttribute="trailing" constant="5" id="veo-h7-NfW"/>
+                <constraint firstItem="GFU-YC-J4O" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="xVT-ir-bXB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="201" height="52"/>
+            <connections>
+                <outlet property="gContainerView" destination="GFU-YC-J4O" id="2HV-Mc-88j"/>
+                <outlet property="gLblRateOptionContent" destination="TSl-mn-C5V" id="p1u-qN-wKx"/>
+            </connections>
+            <point key="canvasLocation" x="22.463768115942031" y="113.16964285714285"/>
+        </collectionViewCell>
+    </objects>
+</document>

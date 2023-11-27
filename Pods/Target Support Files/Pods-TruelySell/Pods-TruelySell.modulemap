@@ -1,0 +1,6 @@
+framework module Pods_TruelySell {
+  umbrella header "Pods-TruelySell-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GalleryCollectionViewCell" customModule="TruelySell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2VC-3r-ttP">
+                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gxI-Z2-ngI">
+                                <rect key="frame" x="8" y="8" width="54" height="54"/>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nn7-8E-5XT">
+                                <rect key="frame" x="45" y="5" width="20" height="20"/>
+                                <subviews>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pi-GC-abg">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="icon_new_pink_close"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="ifQ-S2-jpj"/>
+                                    <constraint firstAttribute="height" constant="20" id="sQK-cC-GCC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gxI-Z2-ngI" secondAttribute="trailing" constant="8" id="3Do-vB-hoZ"/>
+                            <constraint firstItem="gxI-Z2-ngI" firstAttribute="top" secondItem="2VC-3r-ttP" secondAttribute="top" constant="8" id="9ed-Ix-1um"/>
+                            <constraint firstAttribute="bottom" secondItem="gxI-Z2-ngI" secondAttribute="bottom" constant="8" id="Rcl-VF-BP0"/>
+                            <constraint firstItem="nn7-8E-5XT" firstAttribute="top" secondItem="2VC-3r-ttP" secondAttribute="top" constant="5" id="idE-BA-bOl"/>
+                            <constraint firstItem="gxI-Z2-ngI" firstAttribute="leading" secondItem="2VC-3r-ttP" secondAttribute="leading" constant="8" id="ik1-sp-xMF"/>
+                            <constraint firstAttribute="trailing" secondItem="nn7-8E-5XT" secondAttribute="trailing" constant="5" id="nLZ-0A-TDa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="2VC-3r-ttP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VQX-bY-22S"/>
+                <constraint firstAttribute="trailing" secondItem="2VC-3r-ttP" secondAttribute="trailing" id="fHv-ip-EtT"/>
+                <constraint firstItem="2VC-3r-ttP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pub-4v-Twk"/>
+                <constraint firstAttribute="bottom" secondItem="2VC-3r-ttP" secondAttribute="bottom" id="z6y-q4-ijt"/>
+            </constraints>
+            <size key="customSize" width="86" height="70"/>
+            <connections>
+                <outlet property="gContainerView" destination="2VC-3r-ttP" id="Zij-dL-RIA"/>
+                <outlet property="gViewRemoveBtnContainer" destination="nn7-8E-5XT" id="JxY-N3-AaC"/>
+                <outlet property="galleryImg" destination="gxI-Z2-ngI" id="3Ab-ZJ-ZSw"/>
+                <outlet property="removeBtn" destination="5pi-GC-abg" id="rOk-LL-0If"/>
+            </connections>
+            <point key="canvasLocation" x="85.507246376811594" y="57.589285714285708"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_new_pink_close" width="30" height="30"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

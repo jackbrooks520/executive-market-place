@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="POPPINS-MEDIUM.TTF">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DashboardCollectionViewCell" customModule="TruelySell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ubB-HD-QEt">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xp9-s4-2kC">
+                                <rect key="frame" x="15" y="10" width="150" height="150"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dashboard-comments" translatesAutoresizingMaskIntoConstraints="NO" id="B0v-Ka-eSa">
+                                        <rect key="frame" x="26.5" y="15" width="97.5" height="82.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAx-GF-Pup">
+                                        <rect key="frame" x="75" y="107.5" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Xp9-s4-2kC" secondAttribute="height" multiplier="1:1" id="0Pt-HR-ISR"/>
+                                    <constraint firstItem="pAx-GF-Pup" firstAttribute="top" secondItem="B0v-Ka-eSa" secondAttribute="bottom" constant="10" id="3C9-mF-59g"/>
+                                    <constraint firstItem="pAx-GF-Pup" firstAttribute="centerX" secondItem="B0v-Ka-eSa" secondAttribute="centerX" id="9JO-Ht-5Un"/>
+                                    <constraint firstItem="B0v-Ka-eSa" firstAttribute="width" secondItem="Xp9-s4-2kC" secondAttribute="width" multiplier="0.65" id="Gar-UX-aDB"/>
+                                    <constraint firstItem="B0v-Ka-eSa" firstAttribute="centerX" secondItem="Xp9-s4-2kC" secondAttribute="centerX" id="RY8-C2-5dG"/>
+                                    <constraint firstItem="B0v-Ka-eSa" firstAttribute="top" secondItem="Xp9-s4-2kC" secondAttribute="top" constant="15" id="lRv-Q9-mJO"/>
+                                    <constraint firstItem="B0v-Ka-eSa" firstAttribute="height" secondItem="Xp9-s4-2kC" secondAttribute="height" multiplier="0.55" id="tfl-Dh-m3y"/>
+                                    <constraint firstAttribute="height" constant="150" id="ubz-VX-JHh"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddD-j2-ckp">
+                                <rect key="frame" x="40.5" y="166.5" width="0.0" height="30"/>
+                                <color key="backgroundColor" red="0.84765058755874634" green="0.7662777304649353" blue="0.009141954593360424" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="jmq-g9-0fH"/>
+                                    <constraint firstAttribute="width" id="vim-dD-oOH"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My service " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxX-4W-IV5">
+                                <rect key="frame" x="50.5" y="170" width="79.5" height="23"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ddD-j2-ckp" firstAttribute="centerY" secondItem="vxX-4W-IV5" secondAttribute="centerY" id="B1G-Tl-saF"/>
+                            <constraint firstItem="vxX-4W-IV5" firstAttribute="centerX" secondItem="ubB-HD-QEt" secondAttribute="centerX" id="OHQ-Rl-25F"/>
+                            <constraint firstItem="vxX-4W-IV5" firstAttribute="top" secondItem="Xp9-s4-2kC" secondAttribute="bottom" constant="10" id="ZJb-A3-mSk"/>
+                            <constraint firstItem="Xp9-s4-2kC" firstAttribute="top" secondItem="ubB-HD-QEt" secondAttribute="top" constant="10" id="ekm-l6-heZ"/>
+                            <constraint firstItem="vxX-4W-IV5" firstAttribute="leading" secondItem="ddD-j2-ckp" secondAttribute="trailing" constant="10" id="kU2-ax-s08"/>
+                            <constraint firstItem="Xp9-s4-2kC" firstAttribute="centerX" secondItem="ubB-HD-QEt" secondAttribute="centerX" id="laI-5H-Mrs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ubB-HD-QEt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6fq-jY-NSb"/>
+                <constraint firstAttribute="trailing" secondItem="ubB-HD-QEt" secondAttribute="trailing" id="Wpn-0z-hl6"/>
+                <constraint firstItem="ubB-HD-QEt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="l2D-dJ-Lm5"/>
+                <constraint firstAttribute="bottom" secondItem="ubB-HD-QEt" secondAttribute="bottom" id="zJe-kN-ryq"/>
+            </constraints>
+            <size key="customSize" width="238" height="259"/>
+            <connections>
+                <outlet property="dashBoardImg" destination="B0v-Ka-eSa" id="JWz-DI-Gb2"/>
+                <outlet property="dashBoardTitle" destination="vxX-4W-IV5" id="8a4-ky-7ff"/>
+                <outlet property="dashboardLblView" destination="ddD-j2-ckp" id="8oM-xg-Fes"/>
+                <outlet property="gLblCount" destination="pAx-GF-Pup" id="BXQ-ZG-4BT"/>
+                <outlet property="homeView" destination="Xp9-s4-2kC" id="7k4-Us-8Yn"/>
+            </connections>
+            <point key="canvasLocation" x="118.84057971014494" y="77.008928571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="dashboard-comments" width="128" height="128"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,246 @@
+PODS:
+  - AARatingBar (1.2)
+  - ADCountryPicker (2.1.0)
+  - Alamofire (4.4.0)
+  - Braintree (4.34.0):
+    - Braintree/Card (= 4.34.0)
+    - Braintree/Core (= 4.34.0)
+    - Braintree/PayPal (= 4.34.0)
+    - Braintree/UI (= 4.34.0)
+  - Braintree/Card (4.34.0):
+    - Braintree/Core
+  - Braintree/Core (4.34.0)
+  - Braintree/PaymentFlow (4.34.0):
+    - Braintree/Card
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPal (4.34.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.34.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.34.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.34.0)
+  - Braintree/UI (4.34.0):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/UnionPay (4.34.0):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (8.2.0):
+    - BraintreeDropIn/DropIn (= 8.2.0)
+  - BraintreeDropIn/DropIn (8.2.0):
+    - Braintree/Card (~> 4.32)
+    - Braintree/Core (~> 4.32)
+    - Braintree/PaymentFlow (~> 4.32)
+    - Braintree/PayPal (~> 4.32)
+    - Braintree/UnionPay (~> 4.32)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (8.2.0)
+  - CZPicker (0.4.3)
+  - DLRadioButton (1.4.12)
+  - DrawerController (4.0.0):
+    - DrawerController/Core (= 4.0.0)
+    - DrawerController/DrawerVisualStates (= 4.0.0)
+  - DrawerController/Core (4.0.0)
+  - DrawerController/DrawerVisualStates (4.0.0):
+    - DrawerController/Core
+  - Firebase/CoreOnly (8.6.1):
+    - FirebaseCore (= 8.6.1)
+  - Firebase/Messaging (8.6.1):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.6.0)
+  - FirebaseCore (8.6.1):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.6.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.6.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseMessaging (8.6.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Reachability (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - FSCalendar (2.8.1)
+  - GoogleDataTransport (9.1.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.8.0):
+    - GoogleMaps/Base (= 3.8.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.5.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.5.1):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.5.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.5.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.5.1)"
+  - GoogleUtilities/Reachability (7.5.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.5.1):
+    - GoogleUtilities/Logger
+  - IQKeyboardManagerSwift (6.5.5)
+  - JGProgressHUD (2.1)
+  - JKNotificationPanel (1.0.0)
+  - Kingfisher (5.6.0)
+  - MapViewPlus (0.1.3):
+    - Kingfisher (~> 5.6.0)
+  - MarqueeLabel/Swift (3.2.1)
+  - MXSegmentedControl (1.1.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - Paystack (3.0.17):
+    - Paystack/Core (= 3.0.17)
+  - Paystack/Core (3.0.17)
+  - Presentr (1.9)
+  - PromisesObjC (2.0.0)
+  - razorpay-pod (1.1.14)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - Starscream (3.0.6)
+  - Stripe (21.7.0):
+    - Stripe/Stripe3DS2 (= 21.7.0)
+    - StripeCore (= 21.7.0)
+  - Stripe/Stripe3DS2 (21.7.0):
+    - StripeCore (= 21.7.0)
+  - StripeCore (21.7.0)
+  - SwiftyCodeView (0.3.6):
+    - SwiftyCodeView/Core (= 0.3.6)
+  - SwiftyCodeView/Core (0.3.6)
+
+DEPENDENCIES:
+  - AARatingBar
+  - ADCountryPicker (~> 2.1.0)
+  - Alamofire (= 4.4.0)
+  - Braintree
+  - BraintreeDropIn
+  - CZPicker
+  - DLRadioButton (~> 1.4)
+  - DrawerController
+  - Firebase/Messaging
+  - FSCalendar
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - JKNotificationPanel
+  - MapViewPlus
+  - MarqueeLabel/Swift
+  - MXSegmentedControl
+  - Paystack
+  - Presentr
+  - razorpay-pod
+  - SDWebImage (~> 3.7)
+  - Starscream (~> 3.0.2)
+  - Stripe
+  - SwiftyCodeView
+
+SPEC REPOS:
+  trunk:
+    - AARatingBar
+    - ADCountryPicker
+    - Alamofire
+    - Braintree
+    - BraintreeDropIn
+    - CZPicker
+    - DLRadioButton
+    - DrawerController
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FSCalendar
+    - GoogleDataTransport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - JKNotificationPanel
+    - Kingfisher
+    - MapViewPlus
+    - MarqueeLabel
+    - MXSegmentedControl
+    - nanopb
+    - Paystack
+    - Presentr
+    - PromisesObjC
+    - razorpay-pod
+    - SDWebImage
+    - Starscream
+    - Stripe
+    - StripeCore
+    - SwiftyCodeView
+
+SPEC CHECKSUMS:
+  AARatingBar: dc54d24687ae97688ffdb29738332d0bc5c0c09f
+  ADCountryPicker: 502cee76a30ea1c3834eb0df170ce635691655c9
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Braintree: 48154e70306eb3e6c81eaa87bbc5c5988c0d2784
+  BraintreeDropIn: b57b653d130981aad7ad9bc97a69d3d7ef86f7a1
+  CZPicker: 55aa1751ea26e209814552da1a9a08cba8bbf72a
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  DrawerController: eb1168e9f7185cc49f654ae8486917f0acb3dc88
+  Firebase: e84d95f6d3a91f634abc384f0751c434cb3aecfa
+  FirebaseCore: a753c231801f04f5ccd10cc92119ad1b12a61165
+  FirebaseCoreDiagnostics: 3721920bde3a9a6d5aa093c1d25e9d3e47f694af
+  FirebaseInstallations: 0ede6ffcd215b8f93c19d9b06c1c54e2d4107e98
+  FirebaseMessaging: ce0a5ee974f7bfe83b6cc5acce88c2d969e37c41
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  GooglePlaces: d5f70c3e9e427964fdeca1301a665d276ccd8754
+  GoogleUtilities: 3df19e3c24f7bbc291d8b5809aa6b0d41e642437
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  JKNotificationPanel: 2ed551f072be7f54e23a8c2526149c69ab23da9a
+  Kingfisher: 1a50df6880a60bae26f3e21a0df3d17b892f5e0b
+  MapViewPlus: 92608071766d967ebad6316d226ba99e3e1dfcb3
+  MarqueeLabel: 2daf039bf916937c8a4c9adfc13577cc5e51b4ce
+  MXSegmentedControl: f39e46199a52cbc03b1c845e150215119f2542f5
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  Paystack: 5a7a9d5c47ddfd76e3d84550d9ff1f49bf6d284c
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  razorpay-pod: 7991bc0823d0f4b2934b4ea87967d54d2e284e2c
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  Stripe: 90596971ef49bade169f68bc59369a796b30a045
+  StripeCore: c09b492efc3b269a6ff875ad738ca366db97e03b
+  SwiftyCodeView: 0252e3520749a3fda1a9b141873401f8e6c570ad
+
+PODFILE CHECKSUM: 097d9616f4afa246a8fe00479e76f95c151a6759
+
+COCOAPODS: 1.10.1

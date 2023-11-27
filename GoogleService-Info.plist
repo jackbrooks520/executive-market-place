@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1024257304686-556ppkqlsvv6b38mhuka31entttqdgsr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1024257304686-556ppkqlsvv6b38mhuka31entttqdgsr</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1024257304686-1cd680ff3vqeonnn08npag3jloj7u0qo.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCb_938UbaYoO1m7u03P6WBNy8BAB3B2XE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1024257304686</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dreamguystech.TruelySell</string>
+	<key>PROJECT_ID</key>
+	<string>truelysell-602d3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>truelysell-602d3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1024257304686:ios:7049ea35b2fef5b8d95e7f</string>
+	<key>DATABASE_URL</key>
+	<string>https://truelysell-602d3.firebaseio.com</string>
+</dict>
+</plist>

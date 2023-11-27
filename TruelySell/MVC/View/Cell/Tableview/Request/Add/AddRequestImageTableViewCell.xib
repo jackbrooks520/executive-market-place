@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="POPPINS-REGULAR.TTF">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="140" id="KGk-i7-Jjw" customClass="AddRequestImageTableViewCell" customModule="SERVPRO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="159.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yRL-HR-fGB">
+                        <rect key="frame" x="10" y="10" width="359" height="139.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dgb-bf-cvS">
+                                <rect key="frame" x="0.0" y="0.0" width="359" height="139.5"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_add_provider_img_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="148-q5-gjp">
+                                <rect key="frame" x="159.5" y="50" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="148-q5-gjp" secondAttribute="height" multiplier="1:1" id="SSb-M8-Fo8"/>
+                                    <constraint firstAttribute="height" constant="40" id="fbx-gl-PiN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKY-zb-WiE">
+                                <rect key="frame" x="133.5" y="95" width="92" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="6GJ-yk-Y3Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URF-Tt-yV1">
+                                <rect key="frame" x="0.0" y="0.0" width="359" height="139.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Dgb-bf-cvS" firstAttribute="top" secondItem="yRL-HR-fGB" secondAttribute="top" id="E8e-5z-9Qf"/>
+                            <constraint firstItem="Dgb-bf-cvS" firstAttribute="leading" secondItem="yRL-HR-fGB" secondAttribute="leading" id="FmI-lE-3Uf"/>
+                            <constraint firstAttribute="trailing" secondItem="URF-Tt-yV1" secondAttribute="trailing" id="HXd-Yd-HUk"/>
+                            <constraint firstAttribute="bottom" secondItem="Dgb-bf-cvS" secondAttribute="bottom" id="LSU-9J-RRf"/>
+                            <constraint firstItem="148-q5-gjp" firstAttribute="centerY" secondItem="yRL-HR-fGB" secondAttribute="centerY" id="Lwq-Dl-okt"/>
+                            <constraint firstItem="TKY-zb-WiE" firstAttribute="top" secondItem="148-q5-gjp" secondAttribute="bottom" constant="5" id="N2o-AX-djx"/>
+                            <constraint firstItem="TKY-zb-WiE" firstAttribute="centerX" secondItem="148-q5-gjp" secondAttribute="centerX" id="X39-Ls-R6c"/>
+                            <constraint firstItem="URF-Tt-yV1" firstAttribute="top" secondItem="yRL-HR-fGB" secondAttribute="top" id="XXr-8k-gli"/>
+                            <constraint firstItem="URF-Tt-yV1" firstAttribute="leading" secondItem="yRL-HR-fGB" secondAttribute="leading" id="ebp-TP-VvW"/>
+                            <constraint firstAttribute="bottom" secondItem="URF-Tt-yV1" secondAttribute="bottom" id="h0u-7H-igG"/>
+                            <constraint firstAttribute="trailing" secondItem="Dgb-bf-cvS" secondAttribute="trailing" id="pl6-U6-N7u"/>
+                            <constraint firstItem="148-q5-gjp" firstAttribute="centerX" secondItem="yRL-HR-fGB" secondAttribute="centerX" id="ysO-Oc-QBf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yRL-HR-fGB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="N7u-Xq-wHv"/>
+                    <constraint firstAttribute="bottom" secondItem="yRL-HR-fGB" secondAttribute="bottom" constant="10" id="aRS-ZN-rvb"/>
+                    <constraint firstItem="yRL-HR-fGB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="gdF-up-KCn"/>
+                    <constraint firstAttribute="trailing" secondItem="yRL-HR-fGB" secondAttribute="trailing" constant="10" id="zJB-J3-1sL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="gBtnImgTap" destination="URF-Tt-yV1" id="XSx-QF-fT7"/>
+                <outlet property="gContainerView" destination="yRL-HR-fGB" id="wQk-eh-ywv"/>
+                <outlet property="gImgViewProvUploadImg" destination="Dgb-bf-cvS" id="uTL-j8-AwJ"/>
+                <outlet property="gImgViewUploadCenter" destination="148-q5-gjp" id="gNA-lk-thw"/>
+                <outlet property="gLblUploadContent" destination="TKY-zb-WiE" id="E2c-Z5-ooi"/>
+            </connections>
+            <point key="canvasLocation" x="119.56521739130436" y="93.75"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_add_provider_img_placeholder" width="80" height="80"/>
+    </resources>
+</document>

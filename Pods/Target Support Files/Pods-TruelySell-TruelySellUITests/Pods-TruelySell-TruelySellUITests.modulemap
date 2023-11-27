@@ -1,0 +1,6 @@
+framework module Pods_TruelySell_TruelySellUITests {
+  umbrella header "Pods-TruelySell-TruelySellUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

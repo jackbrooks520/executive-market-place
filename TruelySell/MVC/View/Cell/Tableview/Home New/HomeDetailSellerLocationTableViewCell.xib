@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="POPPINS-REGULAR.TTF">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="64" id="KGk-i7-Jjw" customClass="HomeDetailSellerLocationTableViewCell" customModule="SERVPRO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lld-4w-yiO">
+                        <rect key="frame" x="5" y="5" width="315" height="53.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_new_location" translatesAutoresizingMaskIntoConstraints="NO" id="HTm-Kd-zZH">
+                                <rect key="frame" x="10" y="17" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HTm-Kd-zZH" secondAttribute="height" multiplier="1:1" id="B0U-SX-4JV"/>
+                                    <constraint firstAttribute="height" constant="20" id="SHb-W0-3BF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I20-lp-fW5">
+                                <rect key="frame" x="35" y="17" width="270" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Oz7-26-DfQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HTm-Kd-zZH" firstAttribute="centerY" secondItem="Lld-4w-yiO" secondAttribute="centerY" id="0Wl-4k-Iqa"/>
+                            <constraint firstItem="HTm-Kd-zZH" firstAttribute="leading" secondItem="Lld-4w-yiO" secondAttribute="leading" constant="10" id="TFy-yn-lV7"/>
+                            <constraint firstAttribute="trailing" secondItem="I20-lp-fW5" secondAttribute="trailing" constant="10" id="TbZ-ty-D7V"/>
+                            <constraint firstItem="I20-lp-fW5" firstAttribute="leading" secondItem="HTm-Kd-zZH" secondAttribute="trailing" constant="5" id="bU2-G2-Oj4"/>
+                            <constraint firstItem="I20-lp-fW5" firstAttribute="centerY" secondItem="HTm-Kd-zZH" secondAttribute="centerY" id="vWI-Gj-ueS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Lld-4w-yiO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="JIS-hw-S4c"/>
+                    <constraint firstAttribute="trailing" secondItem="Lld-4w-yiO" secondAttribute="trailing" constant="5" id="WLi-N9-I6X"/>
+                    <constraint firstItem="Lld-4w-yiO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="dme-si-kAF"/>
+                    <constraint firstAttribute="bottom" secondItem="Lld-4w-yiO" secondAttribute="bottom" constant="5" id="lPH-El-N1b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="gContainerView" destination="Lld-4w-yiO" id="qKQ-UK-W53"/>
+                <outlet property="gLblLocation" destination="I20-lp-fW5" id="gaO-WZ-jR3"/>
+            </connections>
+            <point key="canvasLocation" x="134.05797101449275" y="121.875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_new_location" width="30" height="30"/>
+    </resources>
+</document>

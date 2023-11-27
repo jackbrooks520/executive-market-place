@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="POPPINS-REGULAR.TTF">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeNewCategoryCollectionViewCell" customModule="Aturbagus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="157" height="166"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="157" height="166"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tZ4-iM-cDs">
+                        <rect key="frame" x="5" y="5" width="147" height="156"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mZ5-WJ-d51">
+                                <rect key="frame" x="0.0" y="0.0" width="147" height="156"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="700" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngv-OH-ZDa">
+                                        <rect key="frame" x="5" y="98" width="137" height="0.0"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jKz-G0-tRg">
+                                        <rect key="frame" x="48.5" y="43" width="50" height="50"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_more_dotted" translatesAutoresizingMaskIntoConstraints="NO" id="xLE-bv-hdk">
+                                                <rect key="frame" x="10" y="10" width="30" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="edJ-O3-HS0"/>
+                                                    <constraint firstAttribute="width" secondItem="xLE-bv-hdk" secondAttribute="height" multiplier="1:1" id="svO-pf-Z9S"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_home_category" translatesAutoresizingMaskIntoConstraints="NO" id="EZe-vV-D7M">
+                                                <rect key="frame" x="3" y="3" width="44" height="44"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="EZe-vV-D7M" firstAttribute="top" secondItem="jKz-G0-tRg" secondAttribute="top" constant="3" id="7bJ-0h-oMa"/>
+                                            <constraint firstItem="xLE-bv-hdk" firstAttribute="centerX" secondItem="jKz-G0-tRg" secondAttribute="centerX" id="Hui-mg-HHp"/>
+                                            <constraint firstAttribute="bottom" secondItem="EZe-vV-D7M" secondAttribute="bottom" constant="3" id="OK7-5i-HeG"/>
+                                            <constraint firstItem="EZe-vV-D7M" firstAttribute="leading" secondItem="jKz-G0-tRg" secondAttribute="leading" constant="3" id="Pgf-gB-LTv"/>
+                                            <constraint firstItem="xLE-bv-hdk" firstAttribute="centerY" secondItem="jKz-G0-tRg" secondAttribute="centerY" id="QVb-oA-iq8"/>
+                                            <constraint firstAttribute="width" secondItem="jKz-G0-tRg" secondAttribute="height" multiplier="1:1" id="Xr4-24-cCM"/>
+                                            <constraint firstAttribute="height" constant="50" id="hwV-l3-Aey"/>
+                                            <constraint firstAttribute="trailing" secondItem="EZe-vV-D7M" secondAttribute="trailing" constant="3" id="ugs-nV-JuQ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ngv-OH-ZDa" firstAttribute="top" secondItem="jKz-G0-tRg" secondAttribute="bottom" constant="5" id="04r-cX-Uct"/>
+                                    <constraint firstItem="jKz-G0-tRg" firstAttribute="centerY" secondItem="mZ5-WJ-d51" secondAttribute="centerY" constant="-10" id="RSJ-2q-kZn"/>
+                                    <constraint firstItem="ngv-OH-ZDa" firstAttribute="leading" secondItem="mZ5-WJ-d51" secondAttribute="leading" constant="5" id="XjN-8Z-G6j"/>
+                                    <constraint firstItem="jKz-G0-tRg" firstAttribute="centerX" secondItem="mZ5-WJ-d51" secondAttribute="centerX" id="p1y-O6-7i6"/>
+                                    <constraint firstAttribute="trailing" secondItem="ngv-OH-ZDa" secondAttribute="trailing" constant="5" id="zmR-LR-ueW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mZ5-WJ-d51" firstAttribute="leading" secondItem="tZ4-iM-cDs" secondAttribute="leading" id="GJb-dA-Hzk"/>
+                            <constraint firstItem="mZ5-WJ-d51" firstAttribute="top" secondItem="tZ4-iM-cDs" secondAttribute="top" id="PAG-kH-bts"/>
+                            <constraint firstAttribute="bottom" secondItem="mZ5-WJ-d51" secondAttribute="bottom" id="xfK-5a-7vD"/>
+                            <constraint firstAttribute="trailing" secondItem="mZ5-WJ-d51" secondAttribute="trailing" id="xik-fJ-i5F"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tZ4-iM-cDs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="ABV-zt-ggp"/>
+                <constraint firstItem="tZ4-iM-cDs" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Kap-SB-05R"/>
+                <constraint firstAttribute="trailing" secondItem="tZ4-iM-cDs" secondAttribute="trailing" constant="5" id="WKc-Tw-AiB"/>
+                <constraint firstAttribute="bottom" secondItem="tZ4-iM-cDs" secondAttribute="bottom" constant="5" id="smx-aK-3tr"/>
+            </constraints>
+            <size key="customSize" width="209" height="159"/>
+            <connections>
+                <outlet property="gContainerViewHeightConstraint" destination="hwV-l3-Aey" id="8Mc-15-5Uy"/>
+                <outlet property="gContainerViewImg" destination="jKz-G0-tRg" id="uUz-ea-HHm"/>
+                <outlet property="gImgViewCategory" destination="EZe-vV-D7M" id="cG9-WM-X7P"/>
+                <outlet property="gImgViewMore" destination="xLE-bv-hdk" id="PyU-bs-GsA"/>
+                <outlet property="gLblCategoryName" destination="ngv-OH-ZDa" id="Pz2-wm-R8z"/>
+            </connections>
+            <point key="canvasLocation" x="99.275362318840592" y="117.85714285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_home_category" width="50" height="50"/>
+        <image name="icon_more_dotted" width="20" height="20"/>
+    </resources>
+</document>

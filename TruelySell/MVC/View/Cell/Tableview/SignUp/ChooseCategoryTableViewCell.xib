@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="POPPINS-REGULAR.TTF">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="58" id="KGk-i7-Jjw" customClass="ChooseCategoryTableViewCell" customModule="TruelySell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BgX-Nx-EQH">
+                        <rect key="frame" x="20" y="5" width="312" height="48"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_front_gray" translatesAutoresizingMaskIntoConstraints="NO" id="gh0-UM-8Ka">
+                                <rect key="frame" x="287" y="16.5" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gh0-UM-8Ka" secondAttribute="height" multiplier="1:1" id="DKz-iu-tsR"/>
+                                    <constraint firstAttribute="height" constant="15" id="jmY-JK-hKU"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMQ-tH-qsz">
+                                <rect key="frame" x="0.0" y="0.0" width="312" height="48"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                <state key="normal" title="  Choose Category">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="VMQ-tH-qsz" secondAttribute="bottom" id="1jk-v4-mpK"/>
+                            <constraint firstItem="VMQ-tH-qsz" firstAttribute="top" secondItem="BgX-Nx-EQH" secondAttribute="top" id="3qB-Ce-UhD"/>
+                            <constraint firstItem="gh0-UM-8Ka" firstAttribute="centerY" secondItem="BgX-Nx-EQH" secondAttribute="centerY" id="YGU-ZN-fXp"/>
+                            <constraint firstAttribute="trailing" secondItem="gh0-UM-8Ka" secondAttribute="trailing" constant="10" id="twE-eI-obw"/>
+                            <constraint firstItem="VMQ-tH-qsz" firstAttribute="leading" secondItem="BgX-Nx-EQH" secondAttribute="leading" id="x6P-o1-Y3f"/>
+                            <constraint firstAttribute="trailing" secondItem="VMQ-tH-qsz" secondAttribute="trailing" id="xWp-DG-TDw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="BgX-Nx-EQH" secondAttribute="bottom" constant="5" id="9hb-Gt-acv"/>
+                    <constraint firstAttribute="trailing" secondItem="BgX-Nx-EQH" secondAttribute="trailing" constant="20" id="PSM-yu-dif"/>
+                    <constraint firstItem="BgX-Nx-EQH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="R5S-WJ-iuY"/>
+                    <constraint firstItem="BgX-Nx-EQH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="uAH-Yu-vao"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="gBtnChooseCategory" destination="VMQ-tH-qsz" id="2sb-Cw-BtN"/>
+                <outlet property="gContainerView" destination="BgX-Nx-EQH" id="IIj-u5-dnn"/>
+                <outlet property="gImgViewRightArrow" destination="gh0-UM-8Ka" id="Nk2-VM-8OB"/>
+            </connections>
+            <point key="canvasLocation" x="113.04347826086958" y="117.1875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_front_gray" width="20" height="20"/>
+    </resources>
+</document>
