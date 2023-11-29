@@ -27,6 +27,6 @@ workflows:
     publishing:
       email:
         recipients:
-          jackbrooks520@gmail.com
+          {jackbrooks520@gmail.com}
       scripts:
           echo 'Post-publish script'
